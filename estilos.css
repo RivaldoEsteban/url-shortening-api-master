@@ -43,7 +43,80 @@ body {
   color: white;
   background: hsl(180, 66%, 49%);
   border: none;
-  padding: 15px 35px;
+  padding: 12px 30px;
   border-radius: 20px;
   font-size: 18px;
+}
+.section-principal {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 130px;
+}
+.title-principal {
+  /* width: 500px; */
+  margin: auto;
+}
+.title-principal h1 {
+  font-size: 60px;
+  margin: 0;
+  line-height: 75px;
+}
+.title-principal p {
+  color: hsl(257, 7%, 63%);
+}
+.title-principal button {
+  color: white;
+  background: hsl(180, 66%, 49%);
+  border: none;
+  padding: 12px 35px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.image-principal {
+  position: relative;
+  left: 200px;
+}
+.change-background-body {
+  background: hsl(258, 35%, 93%);
+}
+.background-medio {
+  background: hsl(257, 27%, 26%);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+  border-radius: 8px;
+  position: relative;
+  top: -70px;
+}
+.button-shortenIt {
+  color: white;
+  background: hsl(180, 66%, 49%);
+  border: none;
+  padding: 20px 35px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.button-input {
+  width: 850px;
+  border: none;
+  background: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.button-shortean {
+  border-radius: 10px;
+  background: white;
+  border: none;
+}
+.advanced {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 70px;
+}
+.advanced h2 {
+  color: hsl(257, 27%, 26%);
+}
+.advanced p {
+  color: hsl(257, 7%, 63%);
 }
